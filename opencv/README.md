@@ -2,9 +2,29 @@
 
 ## 1.番茄酱包识别
 
-![Ketchup Packet](Ketchup_Packet.png)
+![q1](Ketchup_Packet.png)
 
 识别番茄酱包，进行透视变换，参考长宽比2：1
 参考结果：
 
-![answer](ans.png)
+![a1](ans_tomato.png)
+
+## 图像降噪
+
+对图像降噪
+
+![q2](enoz_noise.png)
+
+原图：
+
+![a2](enoz.png)
+
+## 灯条识别
+
+对兑换槽侧面灯条识别
+
+![q3](image.png)
+
+需要识别的图像在box文件夹下
+
+要求：能够将灯条从噪声和/或其他条型部分中区分，包装成一个，函数输入为图像，输出为灯条6个角点（或其他可以描述灯条位置的数据）以及一个图像。
